@@ -16,7 +16,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "fast-cascade-416401-tbucket-1" {
-  name          = "copy_this_bucket_and_die"
+  name          = "the_force_is_stong_here_bucket"
   location      = "US"
   force_destroy = true
 
